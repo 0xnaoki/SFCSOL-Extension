@@ -1,0 +1,29 @@
+{
+	"name": "SFCSOL-Extension",
+	"manifest_version": 3,
+	"version": "0.1",
+	"action": {
+		"default_popup": "popup.html"
+	},
+    "content_scripts": [
+        {
+         "matches": ["https://sol.sfc.keio.ac.jp/*"],
+         "js":["image_swapper.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+         "matches" :["https://sol.sfc.keio.ac.jp/*"],
+         "resources": ["images/*"]
+        }
+     ],
+     "background":{
+         "service_worker": "onInstall.js"
+     },
+    "permissions":[
+        "storage"
+    ],
+    "icons":{
+        "128":"images/icon128.png"
+    }
+}
