@@ -1,5 +1,6 @@
 # SFCSOL-Extension
 慶應義塾大学SFCの授業システムCanvas(SOL)をより便利にする、Chrome拡張機能です。
+配布場所：https://chrome.google.com/webstore/detail/sfcsol-extension/ageepiemglebjjbpbpncfjmefjigneao?hl=ja&authuser=0
 
 ## 使い方
 ### 顔画像変更機能
