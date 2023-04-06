@@ -15,7 +15,7 @@ function updateImage(){
         //update point 2 : profile Image on extended sidebar - background-image override
         var newStyle = document.createElement("style");
         newStyle.type = "text/css";
-        newStyle.innerText = '.bpunF_bGBk{ background-image: url("'+image+'") !important;}'
+        newStyle.innerText = '.tray-with-space-for-global-nav span[src]{background-image: url("'+image+'") !important;}'
         document.getElementsByTagName("head").item(0).appendChild(newStyle);
         
     });  
